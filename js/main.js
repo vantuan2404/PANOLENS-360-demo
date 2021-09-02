@@ -3,10 +3,10 @@ const panoImage2 = document.querySelector(".wrapper .pano-2");
 const panoImage3 = document.querySelector(".wrapper .pano-3");
 const panoImage4 = document.querySelector(".wrapper .pano-4");
 
-let img = "../assets/tree-img-360-1.jpg";
-const img2 = "../assets/tree-img-360-2.jpg";
-const img3 = "../assets/tree-img-360-3.jpg";
-const img4 = "../assets/tree-img-360-4.jpg";
+let img = "/assets/tree-img-360-1.jpg";
+const img2 = "/assets/tree-img-360-2.jpg";
+const img3 = "/assets/tree-img-360-3.jpg";
+const img4 = "/assets/tree-img-360-4.jpg";
 
 const panorama = new PANOLENS.ImagePanorama(img);
 const panorama2 = new PANOLENS.ImagePanorama(img2);
